@@ -40,3 +40,9 @@ cacheSolve <- function(x, ...) {
   }
   
 }
+## CHECKING THIS PROGRAM:
+## k <- matrix(rnorm(25),5,5)
+## k1 <- makeCacheMatrix(k)
+## cacheSolve(k1)
+## x and inv are stored within the environment in which they were defined
+## get and get inverse only fetch these from the enclosed enironment
